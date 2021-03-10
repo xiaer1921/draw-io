@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-03-10T09:20:04.974Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.82 Safari/537.36" etag="-m0Tg7ucIEp3qYWf24_d" version="14.4.5" type="github">
+<mxfile host="app.diagrams.net" modified="2021-03-10T09:38:18.038Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.82 Safari/537.36" etag="8HvZM892DLC3XfIdnfYt" version="14.4.5" type="github">
   <diagram id="kgpKYQtTHZ0yAKxKKP6v" name="Page-1">
     <mxGraphModel dx="4913" dy="2220" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -155,25 +155,36 @@
           <mxGeometry x="130" y="1050" width="10" height="700" as="geometry" />
         </mxCell>
         <mxCell id="gFQHiTTt7Ocbveijve-i-28" value="CameraUsecaseBase" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
-          <mxGeometry x="670" y="80" width="120" height="1580" as="geometry" />
+          <mxGeometry x="670" y="80" width="120" height="2080" as="geometry" />
         </mxCell>
         <mxCell id="gFQHiTTt7Ocbveijve-i-29" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="gFQHiTTt7Ocbveijve-i-28">
-          <mxGeometry x="55" y="970" width="10" height="610" as="geometry" />
+          <mxGeometry x="55" y="970" width="10" height="1110" as="geometry" />
         </mxCell>
         <mxCell id="gFQHiTTt7Ocbveijve-i-38" value="Create" style="html=1;verticalAlign=bottom;endArrow=block;" edge="1" parent="gFQHiTTt7Ocbveijve-i-28">
           <mxGeometry width="80" relative="1" as="geometry">
-            <mxPoint x="70" y="1020" as="sourcePoint" />
+            <mxPoint x="80" y="1020" as="sourcePoint" />
             <mxPoint x="230" y="1020" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gFQHiTTt7Ocbveijve-i-114" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;strokeColor=#9673a6;fontSize=5;fillColor=#e1d5e7;" vertex="1" parent="gFQHiTTt7Ocbveijve-i-28">
+          <mxGeometry x="60" y="1010" width="10" height="1020" as="geometry" />
+        </mxCell>
+        <mxCell id="gFQHiTTt7Ocbveijve-i-115" value="CreatePipeline" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;shadow=0;fontSize=5;" edge="1" target="gFQHiTTt7Ocbveijve-i-114" parent="gFQHiTTt7Ocbveijve-i-28">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="65" y="990" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="95" y="990" />
+            </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="gFQHiTTt7Ocbveijve-i-31" value="针对每条pipeline设置对应的notify和result回调处理" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-70" y="1050" width="160" height="60" as="geometry" />
         </mxCell>
         <mxCell id="gFQHiTTt7Ocbveijve-i-36" value="CHI/Pipeline" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
-          <mxGeometry x="850" y="80" width="100" height="1580" as="geometry" />
+          <mxGeometry x="850" y="80" width="100" height="2190" as="geometry" />
         </mxCell>
         <mxCell id="gFQHiTTt7Ocbveijve-i-37" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="gFQHiTTt7Ocbveijve-i-36">
-          <mxGeometry x="45" y="1020" width="10" height="560" as="geometry" />
+          <mxGeometry x="45" y="1020" width="10" height="1070" as="geometry" />
         </mxCell>
         <mxCell id="gFQHiTTt7Ocbveijve-i-46" value="CreatePipelineDescriptor" style="html=1;verticalAlign=bottom;endArrow=block;" edge="1" parent="gFQHiTTt7Ocbveijve-i-36" target="gFQHiTTt7Ocbveijve-i-41">
           <mxGeometry width="80" relative="1" as="geometry">
@@ -184,20 +195,20 @@
         <mxCell id="gFQHiTTt7Ocbveijve-i-39" value="return" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;" edge="1" parent="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="890" y="1120" as="sourcePoint" />
-            <mxPoint x="740" y="1120" as="targetPoint" />
+            <mxPoint x="750" y="1120" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="gFQHiTTt7Ocbveijve-i-40" value="CreateDescriptor" style="html=1;verticalAlign=bottom;endArrow=block;" edge="1" parent="1">
           <mxGeometry width="80" relative="1" as="geometry">
-            <mxPoint x="740" y="1160" as="sourcePoint" />
+            <mxPoint x="750" y="1160" as="sourcePoint" />
             <mxPoint x="890" y="1160" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="gFQHiTTt7Ocbveijve-i-41" value="ExtensionModule" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;fillColor=#60a917;strokeColor=#2D7600;fontColor=#ffffff;" vertex="1" parent="1">
-          <mxGeometry x="1010" y="80" width="100" height="1590" as="geometry" />
+          <mxGeometry x="1010" y="80" width="100" height="2150" as="geometry" />
         </mxCell>
         <mxCell id="gFQHiTTt7Ocbveijve-i-43" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;fillColor=#60a917;strokeColor=#2D7600;fontColor=#ffffff;" vertex="1" parent="gFQHiTTt7Ocbveijve-i-41">
-          <mxGeometry x="45" y="1020" width="10" height="550" as="geometry" />
+          <mxGeometry x="45" y="1020" width="10" height="1070" as="geometry" />
         </mxCell>
         <mxCell id="gFQHiTTt7Ocbveijve-i-45" value="ChiCreatePipelineDescriptor" style="html=1;verticalAlign=bottom;endArrow=block;" edge="1" parent="gFQHiTTt7Ocbveijve-i-41" target="gFQHiTTt7Ocbveijve-i-42">
           <mxGeometry width="80" relative="1" as="geometry">
@@ -206,15 +217,27 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="gFQHiTTt7Ocbveijve-i-42" value="CamX" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;fillColor=#008a00;strokeColor=#005700;fontColor=#ffffff;" vertex="1" parent="1">
-          <mxGeometry x="1130" y="80" width="210" height="1600" as="geometry" />
+          <mxGeometry x="1130" y="80" width="210" height="2160" as="geometry" />
         </mxCell>
         <mxCell id="gFQHiTTt7Ocbveijve-i-44" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;fillColor=#008a00;strokeColor=#005700;fontColor=#ffffff;" vertex="1" parent="gFQHiTTt7Ocbveijve-i-42">
-          <mxGeometry x="100" y="1020" width="10" height="570" as="geometry" />
+          <mxGeometry x="100" y="1020" width="10" height="1070" as="geometry" />
         </mxCell>
         <mxCell id="gFQHiTTt7Ocbveijve-i-50" value="CreatePipelineDescriptor" style="html=1;verticalAlign=bottom;endArrow=block;" edge="1" parent="gFQHiTTt7Ocbveijve-i-42" target="gFQHiTTt7Ocbveijve-i-48">
           <mxGeometry width="80" relative="1" as="geometry">
             <mxPoint x="110" y="1130" as="sourcePoint" />
             <mxPoint x="190" y="1130" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gFQHiTTt7Ocbveijve-i-116" value="return" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;shadow=0;fontSize=5;" edge="1" parent="gFQHiTTt7Ocbveijve-i-42">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="270" y="1970" as="sourcePoint" />
+            <mxPoint x="120" y="1970" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gFQHiTTt7Ocbveijve-i-117" value="return" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;shadow=0;fontSize=5;" edge="1" parent="gFQHiTTt7Ocbveijve-i-42">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="100" y="1970" as="sourcePoint" />
+            <mxPoint x="-60" y="1970" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="gFQHiTTt7Ocbveijve-i-48" value="ChiContext" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;fillColor=#1ba1e2;strokeColor=#006EAF;fontColor=#ffffff;" vertex="1" parent="1">
@@ -442,6 +465,18 @@
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="1620" y="2050" as="sourcePoint" />
             <mxPoint x="1540" y="2050" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gFQHiTTt7Ocbveijve-i-118" value="return" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;shadow=0;fontSize=5;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1050" y="2050" as="sourcePoint" />
+            <mxPoint x="910" y="2050" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gFQHiTTt7Ocbveijve-i-119" value="return" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;shadow=0;fontSize=5;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="890" y="2050" as="sourcePoint" />
+            <mxPoint x="750" y="2050" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
