@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-03-10T03:50:59.253Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.82 Safari/537.36" etag="xGdmt1zzIvI8j8nqH1Uw" version="14.4.5" type="github">
+<mxfile host="app.diagrams.net" modified="2021-03-10T03:55:11.620Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.82 Safari/537.36" etag="KSPqUWGy1FfmtzeFIPLG" version="14.4.5" type="github">
   <diagram id="kgpKYQtTHZ0yAKxKKP6v" name="Page-1">
     <mxGraphModel dx="2272" dy="716" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -15,7 +15,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="SQyk1EjHCUYwqyTYwWHB-7" value="做了两件事1.针对单摄，match 预览和拍照数据流，但是双摄只会match拍照流去advance。2.match sensor的出图setting" style="rounded=0;whiteSpace=wrap;html=1;fontSize=10;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="SQyk1EjHCUYwqyTYwWHB-1" vertex="1">
+        <mxCell id="SQyk1EjHCUYwqyTYwWHB-7" value="做了两件事1.针对单摄，match 预览和拍照数据流，但是双摄只会match拍照流去advance。2.match sensor的出图setting" style="rounded=0;whiteSpace=wrap;html=1;fontSize=10;fillColor=#1ba1e2;strokeColor=#006EAF;fontColor=#ffffff;" parent="SQyk1EjHCUYwqyTYwWHB-1" vertex="1">
           <mxGeometry x="195" y="190" width="170" height="70" as="geometry" />
         </mxCell>
         <mxCell id="SQyk1EjHCUYwqyTYwWHB-20" value="return" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;fontSize=10;" parent="SQyk1EjHCUYwqyTYwWHB-1" edge="1">
@@ -24,7 +24,7 @@
             <mxPoint x="170" y="430" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="SQyk1EjHCUYwqyTYwWHB-5" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;fontSize=10;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="SQyk1EjHCUYwqyTYwWHB-1" vertex="1">
+        <mxCell id="SQyk1EjHCUYwqyTYwWHB-5" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;fontSize=10;fillColor=#1ba1e2;strokeColor=#006EAF;fontColor=#ffffff;" parent="SQyk1EjHCUYwqyTYwWHB-1" vertex="1">
           <mxGeometry x="155" y="190" width="10" height="250" as="geometry" />
         </mxCell>
         <mxCell id="SQyk1EjHCUYwqyTYwWHB-4" value="SelectUsecaseConfig" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;fontSize=10;" parent="1" target="SQyk1EjHCUYwqyTYwWHB-3" edge="1">
@@ -82,7 +82,7 @@
         <mxCell id="SQyk1EjHCUYwqyTYwWHB-3" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;fontSize=10;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
           <mxGeometry x="130" y="180" width="10" height="860" as="geometry" />
         </mxCell>
-        <mxCell id="gFQHiTTt7Ocbveijve-i-3" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+        <mxCell id="gFQHiTTt7Ocbveijve-i-3" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;fillColor=#1ba1e2;strokeColor=#006EAF;fontColor=#ffffff;" vertex="1" parent="1">
           <mxGeometry x="135" y="660" width="10" height="240" as="geometry" />
         </mxCell>
         <mxCell id="gFQHiTTt7Ocbveijve-i-4" value="&lt;span style=&quot;font-size: 11px&quot;&gt;BuildUsecase&lt;/span&gt;" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;" edge="1" target="gFQHiTTt7Ocbveijve-i-3" parent="1">
@@ -93,7 +93,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="gFQHiTTt7Ocbveijve-i-6" value="&lt;span&gt;featurePipelineCount返回为0,AdvancedPipelineType&lt;/span&gt;&lt;br&gt;&lt;span&gt;相关逻辑已经无效&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+        <mxCell id="gFQHiTTt7Ocbveijve-i-6" value="&lt;span&gt;featurePipelineCount返回为0,AdvancedPipelineType&lt;/span&gt;&lt;br&gt;&lt;span&gt;相关逻辑已经无效&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1ba1e2;strokeColor=#006EAF;fontColor=#ffffff;" vertex="1" parent="1">
           <mxGeometry x="150" y="670" width="160" height="60" as="geometry" />
         </mxCell>
         <mxCell id="gFQHiTTt7Ocbveijve-i-9" value="CloneUsecase" style="html=1;verticalAlign=bottom;endArrow=block;" edge="1" parent="1" target="SQyk1EjHCUYwqyTYwWHB-9">
@@ -102,7 +102,7 @@
             <mxPoint x="230" y="760" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="gFQHiTTt7Ocbveijve-i-10" value="usecaseName:UsecaseZSL" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+        <mxCell id="gFQHiTTt7Ocbveijve-i-10" value="usecaseName:UsecaseZSL" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1ba1e2;strokeColor=#006EAF;fontColor=#ffffff;" vertex="1" parent="1">
           <mxGeometry x="180" y="770" width="160" height="20" as="geometry" />
         </mxCell>
         <mxCell id="gFQHiTTt7Ocbveijve-i-12" value="PruneUsecaseByStreamConfig&lt;br&gt;获取拓扑中的usecase对象" style="html=1;verticalAlign=bottom;endArrow=block;" edge="1" parent="1" target="SQyk1EjHCUYwqyTYwWHB-9">
@@ -110,6 +110,9 @@
             <mxPoint x="150" y="830" as="sourcePoint" />
             <mxPoint x="230" y="830" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="gFQHiTTt7Ocbveijve-i-21" value="&lt;span style=&quot;font-size: 10px ; text-align: left ; background-color: rgb(255 , 255 , 255)&quot;&gt;ConfigureStream和&lt;/span&gt;&lt;span style=&quot;font-size: 11px ; text-align: left ; background-color: rgb(255 , 255 , 255)&quot;&gt;BuildUsecase均为部分feature usecase选择，常见的比如普通预览，usecase id = 3&lt;br&gt;&lt;br&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-130" y="260" width="200" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
