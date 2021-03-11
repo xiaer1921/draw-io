@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-03-11T07:38:37.972Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.82 Safari/537.36" etag="LIdzkgg_3HukYLPuzqM8" version="14.4.6" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2021-03-11T09:43:38.976Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.82 Safari/537.36" etag="FplDcJD0qpVZYSGiO_s-" version="14.4.6" type="github" pages="2">
   <diagram id="kgpKYQtTHZ0yAKxKKP6v" name="Page-1">
-    <mxGraphModel dx="3735" dy="648" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="3531" dy="536" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -30,10 +30,7 @@
           </mxCell>
         </UserObject>
         <mxCell id="gFQHiTTt7Ocbveijve-i-190" value="ChiFeature2GraphManager" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;fillColor=#ffcccc;strokeColor=#36393d;" parent="1" vertex="1">
-          <mxGeometry x="-710" y="80" width="150" height="1470" as="geometry" />
-        </mxCell>
-        <mxCell id="gFQHiTTt7Ocbveijve-i-192" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;fillColor=#ffcccc;strokeColor=#36393d;" parent="gFQHiTTt7Ocbveijve-i-190" vertex="1">
-          <mxGeometry x="70" y="340" width="10" height="890" as="geometry" />
+          <mxGeometry x="-710" y="80" width="150" height="1770" as="geometry" />
         </mxCell>
         <mxCell id="oVJvc1JHs0uCuuvUiLmJ-7" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="gFQHiTTt7Ocbveijve-i-190">
           <mxGeometry x="75" y="420" width="10" height="600" as="geometry" />
@@ -74,12 +71,21 @@
             <mxPoint x="-70" y="620" as="targetPoint" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="gFQHiTTt7Ocbveijve-i-192" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;fillColor=#ffcccc;strokeColor=#36393d;" parent="gFQHiTTt7Ocbveijve-i-190" vertex="1">
+          <mxGeometry x="70" y="340" width="10" height="1190" as="geometry" />
+        </mxCell>
+        <mxCell id="oVJvc1JHs0uCuuvUiLmJ-29" value="return" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;" edge="1" parent="gFQHiTTt7Ocbveijve-i-190" source="gFQHiTTt7Ocbveijve-i-192" target="oVJvc1JHs0uCuuvUiLmJ-11">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-170" y="886" as="sourcePoint" />
+            <mxPoint x="-80" y="720" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="gFQHiTTt7Ocbveijve-i-216" value="CHITargetBufferManager" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;fillColor=#FF3333;" parent="1" vertex="1">
-          <mxGeometry x="-1730" y="80" width="160" height="1860" as="geometry" />
+          <mxGeometry x="-1950" y="75" width="160" height="1860" as="geometry" />
         </mxCell>
         <UserObject label="" id="gFQHiTTt7Ocbveijve-i-217">
           <mxCell style="html=1;points=[];perimeter=orthogonalPerimeter;fillColor=#FF3333;" parent="gFQHiTTt7Ocbveijve-i-216" vertex="1">
-            <mxGeometry x="75" y="1330" width="10" height="310" as="geometry" />
+            <mxGeometry x="75" y="1570" width="10" height="310" as="geometry" />
           </mxCell>
         </UserObject>
         <mxCell id="gFQHiTTt7Ocbveijve-i-188" value="PostUsecaseCreated" style="html=1;verticalAlign=bottom;endArrow=block;entryX=1.2;entryY=0.217;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="oVJvc1JHs0uCuuvUiLmJ-1" edge="1" target="gFQHiTTt7Ocbveijve-i-185">
@@ -112,34 +118,34 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="gFQHiTTt7Ocbveijve-i-214" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;fillColor=#ffff88;strokeColor=#36393d;" parent="1" vertex="1">
-          <mxGeometry x="-425" y="1400" width="10" height="80" as="geometry" />
+          <mxGeometry x="-425" y="1640" width="10" height="80" as="geometry" />
         </mxCell>
         <mxCell id="gFQHiTTt7Ocbveijve-i-215" value="CreateTargetBufferManagers" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;" parent="1" target="gFQHiTTt7Ocbveijve-i-214" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="-420" y="1380" as="sourcePoint" />
+            <mxPoint x="-420" y="1620" as="sourcePoint" />
             <Array as="points">
-              <mxPoint x="-390" y="1380" />
+              <mxPoint x="-390" y="1620" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="gFQHiTTt7Ocbveijve-i-219" value="return" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;" parent="1" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="-1640" y="1450" as="sourcePoint" />
-            <mxPoint x="-425.5" y="1450" as="targetPoint" />
+            <mxPoint x="-1871.1666666666665" y="1690" as="sourcePoint" />
+            <mxPoint x="-425.5" y="1690" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="gFQHiTTt7Ocbveijve-i-218" value="Create" style="html=1;verticalAlign=bottom;endArrow=block;exitX=-0.094;exitY=0.362;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="gFQHiTTt7Ocbveijve-i-214" edge="1">
           <mxGeometry x="0.0682" y="-10" width="80" relative="1" as="geometry">
-            <mxPoint x="-635.5" y="1430" as="sourcePoint" />
-            <mxPoint x="-1650.5" y="1430" as="targetPoint" />
+            <mxPoint x="-635.5" y="1670" as="sourcePoint" />
+            <mxPoint x="-1871.1666666666665" y="1670" as="targetPoint" />
             <mxPoint as="offset" />
             <Array as="points">
-              <mxPoint x="-690" y="1430" />
+              <mxPoint x="-690" y="1670" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="oVJvc1JHs0uCuuvUiLmJ-15" value="获取ChiFeature2GraphSelector的hook，目前平台库加载为com.qti.feature2.gs.mannar.so，hook为ChiFeature2GraphSelectorOpsEntry" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
-          <mxGeometry x="-605" y="660" width="205" height="90" as="geometry" />
+        <mxCell id="oVJvc1JHs0uCuuvUiLmJ-15" value="获取ChiFeature2GraphSelector的hook，目前平台库加载为com.qti.feature2.gs.mannar.so，hook为ChiFeature2GraphSelectorOpsEntry,作为各平台公用接口，那么各平台克制化文件差异在哪里？" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="-605" y="660" width="215" height="100" as="geometry" />
         </mxCell>
         <mxCell id="oVJvc1JHs0uCuuvUiLmJ-16" value="ChiFeature2GraphSelectorOEM" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="-980" y="80" width="180" height="1100" as="geometry" />
@@ -200,12 +206,6 @@
             <mxPoint x="-1150" y="928" as="sourcePoint" />
             <mxPoint x="-890" y="790" as="targetPoint" />
             <Array as="points" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="oVJvc1JHs0uCuuvUiLmJ-29" value="return" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;" edge="1" parent="1" target="oVJvc1JHs0uCuuvUiLmJ-11">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="-880" y="966" as="sourcePoint" />
-            <mxPoint x="-790" y="800" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="oVJvc1JHs0uCuuvUiLmJ-36" value="BuildCameraIdSet" style="html=1;verticalAlign=bottom;endArrow=block;" edge="1" parent="1" source="oVJvc1JHs0uCuuvUiLmJ-34">
@@ -271,6 +271,59 @@
         </mxCell>
         <mxCell id="oVJvc1JHs0uCuuvUiLmJ-54" value="按照规则在/vendor/lib64下match对应的feature库，并通过ChiFeature2OpsEntry建立单向hook,并获取对应feature的Caps，并由m_featureVersionToOpsMap管理，将feature pool中的固定feature根据pCapability和featureDesc联系起来&lt;br&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#9673a6;fillColor=#FF3333;" vertex="1" parent="1">
           <mxGeometry x="-1360" y="1120" width="160" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="oVJvc1JHs0uCuuvUiLmJ-60" value="CHIThreadManager" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;fillColor=#60a917;strokeColor=#2D7600;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="-1730" y="120" width="140" height="1690" as="geometry" />
+        </mxCell>
+        <mxCell id="oVJvc1JHs0uCuuvUiLmJ-61" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;fillColor=#60a917;strokeColor=#2D7600;fontColor=#ffffff;" vertex="1" parent="oVJvc1JHs0uCuuvUiLmJ-60">
+          <mxGeometry x="65" y="1210" width="10" height="260" as="geometry" />
+        </mxCell>
+        <mxCell id="oVJvc1JHs0uCuuvUiLmJ-65" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;fillColor=#60a917;strokeColor=#2D7600;fontColor=#ffffff;" vertex="1" parent="oVJvc1JHs0uCuuvUiLmJ-60">
+          <mxGeometry x="70" y="1300" width="10" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="oVJvc1JHs0uCuuvUiLmJ-66" value="Initialize" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;" edge="1" target="oVJvc1JHs0uCuuvUiLmJ-65" parent="oVJvc1JHs0uCuuvUiLmJ-60">
+          <mxGeometry x="0.0667" y="25" relative="1" as="geometry">
+            <mxPoint x="75" y="1280" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="105" y="1280" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="oVJvc1JHs0uCuuvUiLmJ-67" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;fillColor=#60a917;strokeColor=#2D7600;fontColor=#ffffff;" vertex="1" parent="oVJvc1JHs0uCuuvUiLmJ-60">
+          <mxGeometry x="75" y="1340" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="oVJvc1JHs0uCuuvUiLmJ-68" value="StartThreads" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;" edge="1" target="oVJvc1JHs0uCuuvUiLmJ-67" parent="oVJvc1JHs0uCuuvUiLmJ-60">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="80" y="1320" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="110" y="1320" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="oVJvc1JHs0uCuuvUiLmJ-71" value="return" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;" edge="1" parent="oVJvc1JHs0uCuuvUiLmJ-60" target="gFQHiTTt7Ocbveijve-i-190">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="80" y="1440" as="sourcePoint" />
+            <mxPoint x="170" y="1440" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="oVJvc1JHs0uCuuvUiLmJ-62" value="Create" style="html=1;verticalAlign=bottom;endArrow=block;" edge="1" parent="1" source="gFQHiTTt7Ocbveijve-i-190">
+          <mxGeometry x="-0.0251" y="-10" width="80" relative="1" as="geometry">
+            <mxPoint x="-1570" y="1380" as="sourcePoint" />
+            <mxPoint x="-1650" y="1380" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <UserObject label="创建16个线程的目的待分析" link="data:page/id,jhPczPl4Alvd9S7yf-OZ" id="oVJvc1JHs0uCuuvUiLmJ-69">
+          <mxCell style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffcccc;strokeColor=#36393d;" vertex="1" parent="1">
+            <mxGeometry x="-1640" y="1470" width="150" height="20" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="oVJvc1JHs0uCuuvUiLmJ-72" value="return" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;" edge="1" parent="1" target="gFQHiTTt7Ocbveijve-i-192">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-880" y="966" as="sourcePoint" />
+            <mxPoint x="-630" y="966" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
