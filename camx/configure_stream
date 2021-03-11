@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-03-10T13:19:07.008Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.82 Safari/537.36" etag="fbv-UC3EzQT0PSGR0g-B" version="14.4.5" type="github">
+<mxfile host="app.diagrams.net" modified="2021-03-11T01:42:14.811Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.82 Safari/537.36" etag="QGQRsmslTyZ45xayFGlx" version="14.4.6" type="github" pages="2">
   <diagram id="kgpKYQtTHZ0yAKxKKP6v" name="Page-1">
-    <mxGraphModel dx="12638" dy="5977" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="3373" dy="914" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -708,12 +708,14 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="gFQHiTTt7Ocbveijve-i-187" value="&lt;span style=&quot;font-size: 5px&quot;&gt;&lt;b&gt;Create&lt;/b&gt;&lt;/span&gt;" style="html=1;verticalAlign=bottom;endArrow=block;shadow=0;strokeColor=#000000;fontSize=5;" parent="1" source="SQyk1EjHCUYwqyTYwWHB-1" edge="1">
-          <mxGeometry width="80" relative="1" as="geometry">
-            <mxPoint x="-340" y="140" as="sourcePoint" />
-            <mxPoint x="-420" y="140" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
+        <UserObject label="&lt;span style=&quot;font-size: 5px&quot;&gt;&lt;b&gt;Create&lt;/b&gt;&lt;/span&gt;" link="data:page/id,jhPczPl4Alvd9S7yf-OZ" id="gFQHiTTt7Ocbveijve-i-187">
+          <mxCell style="html=1;verticalAlign=bottom;endArrow=block;shadow=0;strokeColor=#000000;fontSize=5;" parent="1" source="SQyk1EjHCUYwqyTYwWHB-1" edge="1">
+            <mxGeometry width="80" relative="1" as="geometry">
+              <mxPoint x="-340" y="140" as="sourcePoint" />
+              <mxPoint x="-420" y="140" as="targetPoint" />
+            </mxGeometry>
+          </mxCell>
+        </UserObject>
         <mxCell id="gFQHiTTt7Ocbveijve-i-188" value="PostUsecaseCreated" style="html=1;verticalAlign=bottom;endArrow=block;" parent="1" source="SQyk1EjHCUYwqyTYwWHB-1" edge="1">
           <mxGeometry width="80" relative="1" as="geometry">
             <mxPoint x="-340" y="2950" as="sourcePoint" />
@@ -741,9 +743,11 @@
         <mxCell id="gFQHiTTt7Ocbveijve-i-216" value="CHITargetBufferManager" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;fillColor=#FF3333;" parent="1" vertex="1">
           <mxGeometry x="-910" y="80" width="160" height="3230" as="geometry" />
         </mxCell>
-        <mxCell id="gFQHiTTt7Ocbveijve-i-217" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;fillColor=#FF3333;" parent="gFQHiTTt7Ocbveijve-i-216" vertex="1">
-          <mxGeometry x="75" y="3070" width="10" height="80" as="geometry" />
-        </mxCell>
+        <UserObject label="" id="gFQHiTTt7Ocbveijve-i-217">
+          <mxCell style="html=1;points=[];perimeter=orthogonalPerimeter;fillColor=#FF3333;" parent="gFQHiTTt7Ocbveijve-i-216" vertex="1">
+            <mxGeometry x="75" y="3070" width="10" height="80" as="geometry" />
+          </mxCell>
+        </UserObject>
         <mxCell id="gFQHiTTt7Ocbveijve-i-219" value="return" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;" parent="gFQHiTTt7Ocbveijve-i-216" target="gFQHiTTt7Ocbveijve-i-184" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="90" y="3110" as="sourcePoint" />
@@ -757,6 +761,14 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="jhPczPl4Alvd9S7yf-OZ" name="第 2 页">
+    <mxGraphModel dx="1422" dy="777" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="I7T-B5ORQnlcZlzDJ3P4-0" />
+        <mxCell id="I7T-B5ORQnlcZlzDJ3P4-1" parent="I7T-B5ORQnlcZlzDJ3P4-0" />
       </root>
     </mxGraphModel>
   </diagram>
