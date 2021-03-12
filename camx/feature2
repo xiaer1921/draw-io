@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-03-12T06:58:51.107Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.82 Safari/537.36" etag="HG2QCWNK8Tawc_hg-mdV" version="14.4.6" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2021-03-12T07:03:34.700Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.82 Safari/537.36" etag="xzNT_Xv7DZ95UhaJlYhQ" version="14.4.6" type="github" pages="2">
   <diagram id="kgpKYQtTHZ0yAKxKKP6v" name="Page-1">
-    <mxGraphModel dx="3972" dy="716" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="4581" dy="1023" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -387,9 +387,11 @@
             <mxPoint x="-1400" y="2200" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="oVJvc1JHs0uCuuvUiLmJ-90" value="待研究,放至于Page-2" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#3333FF;" parent="1" vertex="1">
-          <mxGeometry x="-1090" y="2130" width="120" height="60" as="geometry" />
-        </mxCell>
+        <UserObject label="待研究,放至于Page-2" link="data:page/id,jhPczPl4Alvd9S7yf-OZ" id="oVJvc1JHs0uCuuvUiLmJ-90">
+          <mxCell style="rounded=1;whiteSpace=wrap;html=1;fillColor=#3333FF;" parent="1" vertex="1">
+            <mxGeometry x="-880" y="2110" width="120" height="60" as="geometry" />
+          </mxCell>
+        </UserObject>
         <UserObject label="&lt;span style=&quot;font-size: 5px&quot;&gt;&lt;b&gt;Create&lt;/b&gt;&lt;/span&gt;" id="gFQHiTTt7Ocbveijve-i-187">
           <mxCell style="html=1;verticalAlign=bottom;endArrow=block;shadow=0;strokeColor=#000000;fontSize=5;" parent="1" edge="1">
             <mxGeometry width="80" relative="1" as="geometry">
@@ -417,10 +419,33 @@
     </mxGraphModel>
   </diagram>
   <diagram id="jhPczPl4Alvd9S7yf-OZ" name="第 2 页">
-    <mxGraphModel dx="1422" dy="716" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="4851" dy="1193" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="I7T-B5ORQnlcZlzDJ3P4-0" />
         <mxCell id="I7T-B5ORQnlcZlzDJ3P4-1" parent="I7T-B5ORQnlcZlzDJ3P4-0" />
+        <mxCell id="xXuh8mXAeOKQKE_aS-PZ-0" value="ChiFeaturePoolManager" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="I7T-B5ORQnlcZlzDJ3P4-1">
+          <mxGeometry x="-2100" y="160" width="220" height="2260" as="geometry" />
+        </mxCell>
+        <mxCell id="xXuh8mXAeOKQKE_aS-PZ-1" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="xXuh8mXAeOKQKE_aS-PZ-0">
+          <mxGeometry x="105" y="200" width="10" height="1250" as="geometry" />
+        </mxCell>
+        <mxCell id="UrMyKDXr5B5kSU7yynrS-0" value="ChiFeature2GraphManager" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;fillColor=#ffcccc;strokeColor=#36393d;" vertex="1" parent="I7T-B5ORQnlcZlzDJ3P4-1">
+          <mxGeometry x="-1710" y="160" width="150" height="2260" as="geometry" />
+        </mxCell>
+        <mxCell id="UrMyKDXr5B5kSU7yynrS-1" value="Initialize" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;" edge="1" parent="UrMyKDXr5B5kSU7yynrS-0" target="UrMyKDXr5B5kSU7yynrS-5">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="80" y="130" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="110" y="130" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UrMyKDXr5B5kSU7yynrS-4" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;fillColor=#ffcccc;strokeColor=#36393d;" vertex="1" parent="UrMyKDXr5B5kSU7yynrS-0">
+          <mxGeometry x="70" y="70" width="10" height="1800" as="geometry" />
+        </mxCell>
+        <mxCell id="UrMyKDXr5B5kSU7yynrS-5" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="UrMyKDXr5B5kSU7yynrS-0">
+          <mxGeometry x="75" y="150" width="10" height="1060" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
