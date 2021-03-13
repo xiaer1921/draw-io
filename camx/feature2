@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-03-13T07:34:51.271Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.82 Safari/537.36" etag="3R59NQBx7_YfJYVvBrQb" version="14.4.7" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2021-03-13T07:58:06.903Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.82 Safari/537.36" etag="6tQndOunanvAFMcvRCz8" version="14.4.7" type="github" pages="2">
   <diagram id="kgpKYQtTHZ0yAKxKKP6v" name="Page-1">
     <mxGraphModel dx="5394" dy="1432" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -419,7 +419,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="jhPczPl4Alvd9S7yf-OZ" name="第 2 页">
-    <mxGraphModel dx="4851" dy="1193" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="4154" dy="842" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="I7T-B5ORQnlcZlzDJ3P4-0" />
         <mxCell id="I7T-B5ORQnlcZlzDJ3P4-1" parent="I7T-B5ORQnlcZlzDJ3P4-0" />
@@ -430,7 +430,7 @@
           <mxGeometry x="105" y="200" width="10" height="700" as="geometry" />
         </mxCell>
         <mxCell id="jUlbbz9EtEi3TnEbhP8g-2" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="xXuh8mXAeOKQKE_aS-PZ-0" vertex="1">
-          <mxGeometry x="110" y="280" width="10" height="560" as="geometry" />
+          <mxGeometry x="110" y="280" width="10" height="530" as="geometry" />
         </mxCell>
         <mxCell id="jUlbbz9EtEi3TnEbhP8g-3" value="DoStreamNegotiation" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;" parent="xXuh8mXAeOKQKE_aS-PZ-0" target="jUlbbz9EtEi3TnEbhP8g-2" edge="1">
           <mxGeometry relative="1" as="geometry">
@@ -505,7 +505,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="YeUqqzVdCpRZ9AkC8Wtz-4" value="对configure stream设置的流进行判定是preview/video/jepg等，然后映射对应的featureType" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FF3333;" vertex="1" parent="I7T-B5ORQnlcZlzDJ3P4-1">
-          <mxGeometry x="-760" y="547" width="110" height="75" as="geometry" />
+          <mxGeometry x="-760" y="547" width="160" height="113" as="geometry" />
         </mxCell>
         <mxCell id="YeUqqzVdCpRZ9AkC8Wtz-5" value="return" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;" edge="1" parent="I7T-B5ORQnlcZlzDJ3P4-1" target="pzTk7MWCr8cp_KgB63Av-0">
           <mxGeometry relative="1" as="geometry">
@@ -513,8 +513,14 @@
             <mxPoint x="-870" y="590" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="YeUqqzVdCpRZ9AkC8Wtz-6" value="配置out stream信息，主要为通过判断流和streamIntent来clone并push到到StreamNegotiationOutput，比如普通预览，拍照流reject,针对预览流，配置了一下六种stream,&lt;br&gt;preivew&lt;br&gt;postview,&lt;br&gt;RDI,&lt;br&gt;IdeaRawstream,&lt;br&gt;video,&lt;br&gt;yuvstream（非mimias平台，否则为fdstream）" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FF3333;" vertex="1" parent="I7T-B5ORQnlcZlzDJ3P4-1">
+        <mxCell id="YeUqqzVdCpRZ9AkC8Wtz-6" value="配置out stream信息，主要为通过featureType&lt;br&gt;判断流和streamIntent来clone并push到到StreamNegotiationOutput，比如普通预览，拍照流reject,针对预览流，配置了一下六种stream,&lt;br&gt;preivew&lt;br&gt;postview,&lt;br&gt;RDI,&lt;br&gt;IdeaRawstream,&lt;br&gt;video,&lt;br&gt;yuvstream（非mimias平台，否则为fdstream），既然是clone,区分这6中的key其实是每个流中的stream&lt;i&gt;Intent&lt;br&gt;&lt;/i&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FF3333;" vertex="1" parent="I7T-B5ORQnlcZlzDJ3P4-1">
           <mxGeometry x="-1000" y="610" width="150" height="260" as="geometry" />
+        </mxCell>
+        <mxCell id="YeUqqzVdCpRZ9AkC8Wtz-7" value="return" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;" edge="1" parent="I7T-B5ORQnlcZlzDJ3P4-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-1060" y="800" as="sourcePoint" />
+            <mxPoint x="-1330" y="800" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
