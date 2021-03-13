@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-03-13T09:26:20.102Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.82 Safari/537.36" etag="p3E82mb4U9M75yAwMG2c" version="14.4.7" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2021-03-13T09:53:22.402Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.82 Safari/537.36" etag="jJkC0tG_g76er_7TEDk-" version="14.4.7" type="github" pages="2">
   <diagram id="kgpKYQtTHZ0yAKxKKP6v" name="Page-1">
-    <mxGraphModel dx="12030" dy="4773" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="7290" dy="2387" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -419,7 +419,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="jhPczPl4Alvd9S7yf-OZ" name="第 2 页">
-    <mxGraphModel dx="6544" dy="2046" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="5325" dy="1432" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="I7T-B5ORQnlcZlzDJ3P4-0" />
         <mxCell id="I7T-B5ORQnlcZlzDJ3P4-1" parent="I7T-B5ORQnlcZlzDJ3P4-0" />
@@ -427,7 +427,7 @@
           <mxGeometry x="-1450" y="160" width="310" height="2260" as="geometry" />
         </mxCell>
         <mxCell id="xXuh8mXAeOKQKE_aS-PZ-1" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="xXuh8mXAeOKQKE_aS-PZ-0" vertex="1">
-          <mxGeometry x="150" y="200" width="10" height="1140" as="geometry" />
+          <mxGeometry x="150" y="200" width="10" height="1470" as="geometry" />
         </mxCell>
         <mxCell id="jUlbbz9EtEi3TnEbhP8g-2" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="xXuh8mXAeOKQKE_aS-PZ-0" vertex="1">
           <mxGeometry x="155" y="280" width="10" height="380" as="geometry" />
@@ -465,7 +465,7 @@
           <mxGeometry x="210" y="840" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="LB1sDGnQOYf5j8Qctcjs-35" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="xXuh8mXAeOKQKE_aS-PZ-0">
-          <mxGeometry x="155" y="1120" width="10" height="110" as="geometry" />
+          <mxGeometry x="155" y="1120" width="10" height="400" as="geometry" />
         </mxCell>
         <mxCell id="LB1sDGnQOYf5j8Qctcjs-36" value="DoFeatureCreate" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;" edge="1" target="LB1sDGnQOYf5j8Qctcjs-35" parent="xXuh8mXAeOKQKE_aS-PZ-0">
           <mxGeometry relative="1" as="geometry">
@@ -473,6 +473,12 @@
             <Array as="points">
               <mxPoint x="190" y="1100" />
             </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LB1sDGnQOYf5j8Qctcjs-37" value="&lt;span style=&quot;font-size: 11px&quot;&gt;&lt;b&gt;.pCreate&lt;/b&gt;&lt;/span&gt;" style="html=1;verticalAlign=bottom;endArrow=block;" edge="1" parent="xXuh8mXAeOKQKE_aS-PZ-0">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="170" y="1140" as="sourcePoint" />
+            <mxPoint x="380" y="1140" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="UrMyKDXr5B5kSU7yynrS-0" value="ChiFeature2GraphManager" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;fillColor=#ffcccc;strokeColor=#36393d;" parent="I7T-B5ORQnlcZlzDJ3P4-1" vertex="1">
@@ -502,10 +508,10 @@
           <mxGeometry x="-1270" y="340" width="130" height="70" as="geometry" />
         </mxCell>
         <mxCell id="pzTk7MWCr8cp_KgB63Av-0" value="ChiFeature2RealTime" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="I7T-B5ORQnlcZlzDJ3P4-1" vertex="1">
-          <mxGeometry x="-1120" y="160" width="130" height="1360" as="geometry" />
+          <mxGeometry x="-1120" y="160" width="130" height="1990" as="geometry" />
         </mxCell>
         <mxCell id="pzTk7MWCr8cp_KgB63Av-1" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="pzTk7MWCr8cp_KgB63Av-0" vertex="1">
-          <mxGeometry x="60" y="290" width="10" height="520" as="geometry" />
+          <mxGeometry x="60" y="290" width="10" height="1160" as="geometry" />
         </mxCell>
         <mxCell id="pzTk7MWCr8cp_KgB63Av-3" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="pzTk7MWCr8cp_KgB63Av-0" vertex="1">
           <mxGeometry x="65" y="360" width="10" height="40" as="geometry" />
@@ -516,6 +522,24 @@
             <Array as="points">
               <mxPoint x="100" y="340" />
             </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LB1sDGnQOYf5j8Qctcjs-38" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="pzTk7MWCr8cp_KgB63Av-0">
+          <mxGeometry x="65" y="1180" width="10" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="LB1sDGnQOYf5j8Qctcjs-39" value="CreateFeature" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;" edge="1" target="LB1sDGnQOYf5j8Qctcjs-38" parent="pzTk7MWCr8cp_KgB63Av-0">
+          <mxGeometry x="0.0667" y="20" relative="1" as="geometry">
+            <mxPoint x="70" y="1160" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="100" y="1160" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LB1sDGnQOYf5j8Qctcjs-43" value="dispatch" style="html=1;verticalAlign=bottom;endArrow=block;" edge="1" parent="pzTk7MWCr8cp_KgB63Av-0">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="90" y="1210" as="sourcePoint" />
+            <mxPoint x="640" y="1210" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="pzTk7MWCr8cp_KgB63Av-5" value="通过&lt;div&gt;                FindBestSensorMode&amp;nbsp;&lt;/div&gt;&lt;span&gt;              &lt;/span&gt;拿到期望的raw图的width,high,bpp，默认为bpp 为10,对应raw10" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;" parent="I7T-B5ORQnlcZlzDJ3P4-1" vertex="1">
@@ -596,6 +620,15 @@
         </mxCell>
         <mxCell id="LB1sDGnQOYf5j8Qctcjs-34" value="ExtSinkLink" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="I7T-B5ORQnlcZlzDJ3P4-1">
           <mxGeometry x="-1250" y="1160" width="80" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="LB1sDGnQOYf5j8Qctcjs-41" value="ChiFeature2Base" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="I7T-B5ORQnlcZlzDJ3P4-1">
+          <mxGeometry x="-500" y="160" width="100" height="1920" as="geometry" />
+        </mxCell>
+        <mxCell id="LB1sDGnQOYf5j8Qctcjs-42" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="LB1sDGnQOYf5j8Qctcjs-41">
+          <mxGeometry x="45" y="1180" width="10" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="LB1sDGnQOYf5j8Qctcjs-44" value="填充m_createInputInfo，包括feature message回调指针" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FF3333;" vertex="1" parent="I7T-B5ORQnlcZlzDJ3P4-1">
+          <mxGeometry x="-430" y="1390" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
