@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-03-13T09:53:22.402Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.82 Safari/537.36" etag="jJkC0tG_g76er_7TEDk-" version="14.4.7" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2021-03-13T10:07:54.148Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.82 Safari/537.36" etag="ftn78foPH_5CWaa-Polw" version="14.4.7" type="github" pages="2">
   <diagram id="kgpKYQtTHZ0yAKxKKP6v" name="Page-1">
-    <mxGraphModel dx="7290" dy="2387" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="4223" dy="842" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -346,9 +346,9 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <UserObject label="创建16个线程的目的待分析" link="data:page/id,jhPczPl4Alvd9S7yf-OZ" id="oVJvc1JHs0uCuuvUiLmJ-69">
+        <UserObject label="创建16个线程的目的待分析，在ChiFeature2Base::Initialize会进行RegisterJobFamily" link="data:page/id,jhPczPl4Alvd9S7yf-OZ" id="oVJvc1JHs0uCuuvUiLmJ-69">
           <mxCell style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffcccc;strokeColor=#36393d;" parent="1" vertex="1">
-            <mxGeometry x="-1640" y="1470" width="150" height="20" as="geometry" />
+            <mxGeometry x="-1630" y="1450" width="150" height="60" as="geometry" />
           </mxCell>
         </UserObject>
         <mxCell id="oVJvc1JHs0uCuuvUiLmJ-72" value="return" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;entryX=0.038;entryY=0.935;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" target="oVJvc1JHs0uCuuvUiLmJ-11" edge="1">
@@ -415,11 +415,14 @@
             <mxPoint x="-420" y="2260" as="targetPoint" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="dNcK-qLauYEKRwqJiaPh-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=0;exitDx=0;exitDy=0;entryX=0.8;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="oVJvc1JHs0uCuuvUiLmJ-69" target="oVJvc1JHs0uCuuvUiLmJ-69">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
   <diagram id="jhPczPl4Alvd9S7yf-OZ" name="第 2 页">
-    <mxGraphModel dx="5325" dy="1432" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="4154" dy="842" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="I7T-B5ORQnlcZlzDJ3P4-0" />
         <mxCell id="I7T-B5ORQnlcZlzDJ3P4-1" parent="I7T-B5ORQnlcZlzDJ3P4-0" />
@@ -536,10 +539,11 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="LB1sDGnQOYf5j8Qctcjs-43" value="dispatch" style="html=1;verticalAlign=bottom;endArrow=block;" edge="1" parent="pzTk7MWCr8cp_KgB63Av-0">
-          <mxGeometry width="80" relative="1" as="geometry">
+        <mxCell id="LB1sDGnQOYf5j8Qctcjs-43" value="Initialize" style="html=1;verticalAlign=bottom;endArrow=block;" edge="1" parent="pzTk7MWCr8cp_KgB63Av-0">
+          <mxGeometry x="0.0909" y="10" width="80" relative="1" as="geometry">
             <mxPoint x="90" y="1210" as="sourcePoint" />
             <mxPoint x="640" y="1210" as="targetPoint" />
+            <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="pzTk7MWCr8cp_KgB63Av-5" value="通过&lt;div&gt;                FindBestSensorMode&amp;nbsp;&lt;/div&gt;&lt;span&gt;              &lt;/span&gt;拿到期望的raw图的width,high,bpp，默认为bpp 为10,对应raw10" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;" parent="I7T-B5ORQnlcZlzDJ3P4-1" vertex="1">
@@ -629,6 +633,9 @@
         </mxCell>
         <mxCell id="LB1sDGnQOYf5j8Qctcjs-44" value="填充m_createInputInfo，包括feature message回调指针" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FF3333;" vertex="1" parent="I7T-B5ORQnlcZlzDJ3P4-1">
           <mxGeometry x="-430" y="1390" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="d8AiLvwJ1WABx4_hIGKD-0" value="inputData.pThreadManager线程管理作为参数传入" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="I7T-B5ORQnlcZlzDJ3P4-1">
+          <mxGeometry x="-1570" y="430" width="220" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
