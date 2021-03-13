@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-03-12T09:02:15.989Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.82 Safari/537.36" etag="vLMxeWNar9eAP-5zuF-v" version="14.4.6" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2021-03-13T07:34:51.271Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.82 Safari/537.36" etag="3R59NQBx7_YfJYVvBrQb" version="14.4.7" type="github" pages="2">
   <diagram id="kgpKYQtTHZ0yAKxKKP6v" name="Page-1">
-    <mxGraphModel dx="7290" dy="2387" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="5394" dy="1432" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -419,20 +419,20 @@
     </mxGraphModel>
   </diagram>
   <diagram id="jhPczPl4Alvd9S7yf-OZ" name="第 2 页">
-    <mxGraphModel dx="3666" dy="597" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="4851" dy="1193" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="I7T-B5ORQnlcZlzDJ3P4-0" />
         <mxCell id="I7T-B5ORQnlcZlzDJ3P4-1" parent="I7T-B5ORQnlcZlzDJ3P4-0" />
-        <mxCell id="xXuh8mXAeOKQKE_aS-PZ-0" value="ChiFeaturePoolManager" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="I7T-B5ORQnlcZlzDJ3P4-1">
+        <mxCell id="xXuh8mXAeOKQKE_aS-PZ-0" value="ChiFeaturePoolManager" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="I7T-B5ORQnlcZlzDJ3P4-1" vertex="1">
           <mxGeometry x="-1450" y="160" width="220" height="2260" as="geometry" />
         </mxCell>
-        <mxCell id="xXuh8mXAeOKQKE_aS-PZ-1" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="xXuh8mXAeOKQKE_aS-PZ-0">
-          <mxGeometry x="105" y="200" width="10" height="400" as="geometry" />
+        <mxCell id="xXuh8mXAeOKQKE_aS-PZ-1" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="xXuh8mXAeOKQKE_aS-PZ-0" vertex="1">
+          <mxGeometry x="105" y="200" width="10" height="700" as="geometry" />
         </mxCell>
-        <mxCell id="jUlbbz9EtEi3TnEbhP8g-2" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="xXuh8mXAeOKQKE_aS-PZ-0">
-          <mxGeometry x="110" y="280" width="10" height="210" as="geometry" />
+        <mxCell id="jUlbbz9EtEi3TnEbhP8g-2" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="xXuh8mXAeOKQKE_aS-PZ-0" vertex="1">
+          <mxGeometry x="110" y="280" width="10" height="560" as="geometry" />
         </mxCell>
-        <mxCell id="jUlbbz9EtEi3TnEbhP8g-3" value="DoStreamNegotiation" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;" edge="1" target="jUlbbz9EtEi3TnEbhP8g-2" parent="xXuh8mXAeOKQKE_aS-PZ-0">
+        <mxCell id="jUlbbz9EtEi3TnEbhP8g-3" value="DoStreamNegotiation" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;" parent="xXuh8mXAeOKQKE_aS-PZ-0" target="jUlbbz9EtEi3TnEbhP8g-2" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="115" y="260" as="sourcePoint" />
             <Array as="points">
@@ -440,16 +440,16 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="pzTk7MWCr8cp_KgB63Av-2" value="DoStreamNegotiation" style="html=1;verticalAlign=bottom;endArrow=block;" edge="1" parent="xXuh8mXAeOKQKE_aS-PZ-0" target="pzTk7MWCr8cp_KgB63Av-0">
+        <mxCell id="pzTk7MWCr8cp_KgB63Av-2" value="DoStreamNegotiation" style="html=1;verticalAlign=bottom;endArrow=block;" parent="xXuh8mXAeOKQKE_aS-PZ-0" target="pzTk7MWCr8cp_KgB63Av-0" edge="1">
           <mxGeometry width="80" relative="1" as="geometry">
             <mxPoint x="120" y="320" as="sourcePoint" />
             <mxPoint x="200" y="320" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="UrMyKDXr5B5kSU7yynrS-0" value="ChiFeature2GraphManager" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;fillColor=#ffcccc;strokeColor=#36393d;" vertex="1" parent="I7T-B5ORQnlcZlzDJ3P4-1">
+        <mxCell id="UrMyKDXr5B5kSU7yynrS-0" value="ChiFeature2GraphManager" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;fillColor=#ffcccc;strokeColor=#36393d;" parent="I7T-B5ORQnlcZlzDJ3P4-1" vertex="1">
           <mxGeometry x="-1710" y="160" width="150" height="2260" as="geometry" />
         </mxCell>
-        <mxCell id="UrMyKDXr5B5kSU7yynrS-1" value="Initialize" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;" edge="1" parent="UrMyKDXr5B5kSU7yynrS-0" target="UrMyKDXr5B5kSU7yynrS-5">
+        <mxCell id="UrMyKDXr5B5kSU7yynrS-1" value="Initialize" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;" parent="UrMyKDXr5B5kSU7yynrS-0" target="UrMyKDXr5B5kSU7yynrS-5" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="80" y="130" as="sourcePoint" />
             <Array as="points">
@@ -457,31 +457,31 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="UrMyKDXr5B5kSU7yynrS-4" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;fillColor=#ffcccc;strokeColor=#36393d;" vertex="1" parent="UrMyKDXr5B5kSU7yynrS-0">
+        <mxCell id="UrMyKDXr5B5kSU7yynrS-4" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;fillColor=#ffcccc;strokeColor=#36393d;" parent="UrMyKDXr5B5kSU7yynrS-0" vertex="1">
           <mxGeometry x="70" y="70" width="10" height="1060" as="geometry" />
         </mxCell>
-        <mxCell id="UrMyKDXr5B5kSU7yynrS-5" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="UrMyKDXr5B5kSU7yynrS-0">
+        <mxCell id="UrMyKDXr5B5kSU7yynrS-5" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;fillColor=#f8cecc;strokeColor=#b85450;" parent="UrMyKDXr5B5kSU7yynrS-0" vertex="1">
           <mxGeometry x="75" y="150" width="10" height="750" as="geometry" />
         </mxCell>
-        <mxCell id="jUlbbz9EtEi3TnEbhP8g-1" value="CreateFeatureInstances" style="html=1;verticalAlign=bottom;endArrow=block;" edge="1" parent="UrMyKDXr5B5kSU7yynrS-0" target="xXuh8mXAeOKQKE_aS-PZ-0">
+        <mxCell id="jUlbbz9EtEi3TnEbhP8g-1" value="CreateFeatureInstances" style="html=1;verticalAlign=bottom;endArrow=block;" parent="UrMyKDXr5B5kSU7yynrS-0" target="xXuh8mXAeOKQKE_aS-PZ-0" edge="1">
           <mxGeometry width="80" relative="1" as="geometry">
             <mxPoint x="90" y="240" as="sourcePoint" />
             <mxPoint x="170" y="240" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="jUlbbz9EtEi3TnEbhP8g-4" value="通过hook对每一个feature instance进行DoStreamNegotiation，这里假设实例为RealTime" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FF3333;" vertex="1" parent="I7T-B5ORQnlcZlzDJ3P4-1">
+        <mxCell id="jUlbbz9EtEi3TnEbhP8g-4" value="通过hook对每一个feature instance进行DoStreamNegotiation，这里假设实例为RealTime" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FF3333;" parent="I7T-B5ORQnlcZlzDJ3P4-1" vertex="1">
           <mxGeometry x="-1320" y="340" width="130" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="pzTk7MWCr8cp_KgB63Av-0" value="ChiFeature2RealTime" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="I7T-B5ORQnlcZlzDJ3P4-1">
-          <mxGeometry x="-1110" y="160" width="130" height="910" as="geometry" />
+        <mxCell id="pzTk7MWCr8cp_KgB63Av-0" value="ChiFeature2RealTime" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="I7T-B5ORQnlcZlzDJ3P4-1" vertex="1">
+          <mxGeometry x="-1110" y="160" width="130" height="1360" as="geometry" />
         </mxCell>
-        <mxCell id="pzTk7MWCr8cp_KgB63Av-1" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="pzTk7MWCr8cp_KgB63Av-0">
-          <mxGeometry x="60" y="290" width="10" height="170" as="geometry" />
+        <mxCell id="pzTk7MWCr8cp_KgB63Av-1" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="pzTk7MWCr8cp_KgB63Av-0" vertex="1">
+          <mxGeometry x="60" y="290" width="10" height="520" as="geometry" />
         </mxCell>
-        <mxCell id="pzTk7MWCr8cp_KgB63Av-3" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="pzTk7MWCr8cp_KgB63Av-0">
+        <mxCell id="pzTk7MWCr8cp_KgB63Av-3" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="pzTk7MWCr8cp_KgB63Av-0" vertex="1">
           <mxGeometry x="65" y="360" width="10" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="pzTk7MWCr8cp_KgB63Av-4" value="GetSensorOutputDimension" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;" edge="1" target="pzTk7MWCr8cp_KgB63Av-3" parent="pzTk7MWCr8cp_KgB63Av-0">
+        <mxCell id="pzTk7MWCr8cp_KgB63Av-4" value="GetSensorOutputDimension" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;" parent="pzTk7MWCr8cp_KgB63Av-0" target="pzTk7MWCr8cp_KgB63Av-3" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="70" y="340" as="sourcePoint" />
             <Array as="points">
@@ -489,8 +489,32 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="pzTk7MWCr8cp_KgB63Av-5" value="通过&lt;div&gt;                FindBestSensorMode&amp;nbsp;&lt;/div&gt;&lt;span&gt;              &lt;/span&gt;拿到期望的raw图的width,high,bpp，默认为bpp 为10,对应raw10" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FF3333;" vertex="1" parent="I7T-B5ORQnlcZlzDJ3P4-1">
+        <mxCell id="pzTk7MWCr8cp_KgB63Av-5" value="通过&lt;div&gt;                FindBestSensorMode&amp;nbsp;&lt;/div&gt;&lt;span&gt;              &lt;/span&gt;拿到期望的raw图的width,high,bpp，默认为bpp 为10,对应raw10" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;" parent="I7T-B5ORQnlcZlzDJ3P4-1" vertex="1">
           <mxGeometry x="-1010" y="420" width="130" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="YeUqqzVdCpRZ9AkC8Wtz-0" value="ChiFeature2Utils" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="I7T-B5ORQnlcZlzDJ3P4-1">
+          <mxGeometry x="-840" y="160" width="120" height="1410" as="geometry" />
+        </mxCell>
+        <mxCell id="YeUqqzVdCpRZ9AkC8Wtz-1" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="YeUqqzVdCpRZ9AkC8Wtz-0">
+          <mxGeometry x="55" y="360" width="10" height="440" as="geometry" />
+        </mxCell>
+        <mxCell id="YeUqqzVdCpRZ9AkC8Wtz-2" value="MapStreamPerFeature" style="html=1;verticalAlign=bottom;endArrow=block;" edge="1" parent="I7T-B5ORQnlcZlzDJ3P4-1" target="YeUqqzVdCpRZ9AkC8Wtz-0">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="-1040" y="568" as="sourcePoint" />
+            <mxPoint x="-950" y="570" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YeUqqzVdCpRZ9AkC8Wtz-4" value="对configure stream设置的流进行判定是preview/video/jepg等，然后映射对应的featureType" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FF3333;" vertex="1" parent="I7T-B5ORQnlcZlzDJ3P4-1">
+          <mxGeometry x="-760" y="547" width="110" height="75" as="geometry" />
+        </mxCell>
+        <mxCell id="YeUqqzVdCpRZ9AkC8Wtz-5" value="return" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;" edge="1" parent="I7T-B5ORQnlcZlzDJ3P4-1" target="pzTk7MWCr8cp_KgB63Av-0">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-790" y="590" as="sourcePoint" />
+            <mxPoint x="-870" y="590" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YeUqqzVdCpRZ9AkC8Wtz-6" value="配置out stream信息，主要为通过判断流和streamIntent来clone并push到到StreamNegotiationOutput，比如普通预览，拍照流reject,针对预览流，配置了一下六种stream,&lt;br&gt;preivew&lt;br&gt;postview,&lt;br&gt;RDI,&lt;br&gt;IdeaRawstream,&lt;br&gt;video,&lt;br&gt;yuvstream（非mimias平台，否则为fdstream）" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FF3333;" vertex="1" parent="I7T-B5ORQnlcZlzDJ3P4-1">
+          <mxGeometry x="-1000" y="610" width="150" height="260" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
