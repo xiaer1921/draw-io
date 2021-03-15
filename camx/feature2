@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-03-15T08:09:52.661Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.82 Safari/537.36" etag="ITmWKsHXfD-Lsk_296q_" version="14.4.8" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2021-03-15T09:00:07.504Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.82 Safari/537.36" etag="U5Tyhv7m0FOVvQEuRJlE" version="14.4.8" type="github" pages="2">
   <diagram id="kgpKYQtTHZ0yAKxKKP6v" name="Page-1">
     <mxGraphModel dx="8238" dy="3108" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -422,7 +422,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="jhPczPl4Alvd9S7yf-OZ" name="第 2 页">
-    <mxGraphModel dx="5427" dy="1564" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3659" dy="626" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="I7T-B5ORQnlcZlzDJ3P4-0" />
         <mxCell id="I7T-B5ORQnlcZlzDJ3P4-1" parent="I7T-B5ORQnlcZlzDJ3P4-0" />
@@ -747,6 +747,28 @@
             </Array>
           </mxGeometry>
         </mxCell>
+        <mxCell id="XpGxXQjMwMVQyizPbOdk-30" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="LB1sDGnQOYf5j8Qctcjs-41">
+          <mxGeometry x="55" y="2340" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="XpGxXQjMwMVQyizPbOdk-31" value="ProcessAsyncFeatureJobs" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;" edge="1" target="XpGxXQjMwMVQyizPbOdk-30" parent="LB1sDGnQOYf5j8Qctcjs-41">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="60" y="2320" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="90" y="2320" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XpGxXQjMwMVQyizPbOdk-34" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="LB1sDGnQOYf5j8Qctcjs-41">
+          <mxGeometry x="50" y="2440" width="10" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="XpGxXQjMwMVQyizPbOdk-35" value="ConfigurePipelineData" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;" edge="1" target="XpGxXQjMwMVQyizPbOdk-34" parent="LB1sDGnQOYf5j8Qctcjs-41">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="55" y="2420" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="85" y="2420" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
         <mxCell id="LB1sDGnQOYf5j8Qctcjs-44" value="填充m_createInputInfo，包括feature message回调指针" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FF3333;" parent="I7T-B5ORQnlcZlzDJ3P4-1" vertex="1">
           <mxGeometry x="-500" y="1330" width="120" height="60" as="geometry" />
         </mxCell>
@@ -837,7 +859,7 @@
         <mxCell id="XpGxXQjMwMVQyizPbOdk-15" value="设置输入输出port使能状态" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="I7T-B5ORQnlcZlzDJ3P4-1">
           <mxGeometry x="-440" y="2100" width="150" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="XpGxXQjMwMVQyizPbOdk-20" value="映射targetstream到result stream,作为和chifbuffer交互的key，关联GetStreamBuffer函数" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="I7T-B5ORQnlcZlzDJ3P4-1">
+        <mxCell id="XpGxXQjMwMVQyizPbOdk-20" value="映射targetstream到result stream,作为和chifbuffer交互的key，关联&lt;font color=&quot;#ff3333&quot;&gt;GetStreamBuffer&lt;/font&gt;函数" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="I7T-B5ORQnlcZlzDJ3P4-1">
           <mxGeometry x="-370" y="2220" width="150" height="50" as="geometry" />
         </mxCell>
         <mxCell id="XpGxXQjMwMVQyizPbOdk-21" value="OnInitialize" style="html=1;verticalAlign=bottom;endArrow=block;" edge="1" parent="I7T-B5ORQnlcZlzDJ3P4-1">
@@ -851,15 +873,15 @@
         </mxCell>
         <mxCell id="XpGxXQjMwMVQyizPbOdk-27" value="return" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;strokeColor=#FF3333;" edge="1" parent="I7T-B5ORQnlcZlzDJ3P4-1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="-530" y="2480" as="sourcePoint" />
-            <mxPoint x="-1280" y="2480" as="targetPoint" />
+            <mxPoint x="-540" y="2890" as="sourcePoint" />
+            <mxPoint x="-1290" y="2890" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="XpGxXQjMwMVQyizPbOdk-28" value="ChiFeature2Status::Configured" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#3333FF;" vertex="1" parent="I7T-B5ORQnlcZlzDJ3P4-1">
-          <mxGeometry x="-535" y="2440" width="190" height="30" as="geometry" />
+          <mxGeometry x="-540" y="2880" width="190" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="XpGxXQjMwMVQyizPbOdk-29" value="loop:feature Instance" style="shape=umlFrame;whiteSpace=wrap;html=1;fillColor=#B5739D;width=70;height=30;" vertex="1" parent="I7T-B5ORQnlcZlzDJ3P4-1">
-          <mxGeometry x="-1440" y="1790" width="1390" height="720" as="geometry" />
+        <mxCell id="XpGxXQjMwMVQyizPbOdk-32" value="&lt;span style=&quot;text-align: left&quot;&gt;MCX_REALTIME双摄直接postjob触发，单摄走下面流程&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FF3333;" vertex="1" parent="I7T-B5ORQnlcZlzDJ3P4-1">
+          <mxGeometry x="-460" y="2510" width="150" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
