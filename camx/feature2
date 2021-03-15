@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-03-15T01:44:35.065Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.82 Safari/537.36" etag="ZuHTCm2vuY6ZnybLx84W" version="14.4.8" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2021-03-15T08:09:52.661Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.82 Safari/537.36" etag="ITmWKsHXfD-Lsk_296q_" version="14.4.8" type="github" pages="2">
   <diagram id="kgpKYQtTHZ0yAKxKKP6v" name="Page-1">
-    <mxGraphModel dx="4581" dy="1110" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="8238" dy="3108" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -422,15 +422,15 @@
     </mxGraphModel>
   </diagram>
   <diagram id="jhPczPl4Alvd9S7yf-OZ" name="第 2 页">
-    <mxGraphModel dx="4851" dy="1295" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="5427" dy="1564" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="I7T-B5ORQnlcZlzDJ3P4-0" />
         <mxCell id="I7T-B5ORQnlcZlzDJ3P4-1" parent="I7T-B5ORQnlcZlzDJ3P4-0" />
         <mxCell id="xXuh8mXAeOKQKE_aS-PZ-0" value="ChiFeaturePoolManager" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="I7T-B5ORQnlcZlzDJ3P4-1" vertex="1">
-          <mxGeometry x="-1450" y="160" width="310" height="2260" as="geometry" />
+          <mxGeometry x="-1450" y="160" width="310" height="3020" as="geometry" />
         </mxCell>
         <mxCell id="xXuh8mXAeOKQKE_aS-PZ-1" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="xXuh8mXAeOKQKE_aS-PZ-0" vertex="1">
-          <mxGeometry x="150" y="200" width="10" height="1670" as="geometry" />
+          <mxGeometry x="150" y="200" width="10" height="2780" as="geometry" />
         </mxCell>
         <mxCell id="jUlbbz9EtEi3TnEbhP8g-2" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="xXuh8mXAeOKQKE_aS-PZ-0" vertex="1">
           <mxGeometry x="155" y="280" width="10" height="380" as="geometry" />
@@ -496,8 +496,14 @@
             <mxPoint x="-170" y="1520" as="targetPoint" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="D80DLoLsOkrlfO6urUhw-5" value="ConfigureFeature" style="html=1;verticalAlign=bottom;endArrow=block;strokeColor=#FF3333;" edge="1" parent="xXuh8mXAeOKQKE_aS-PZ-0">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="170" y="1680" as="sourcePoint" />
+            <mxPoint x="930" y="1680" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="UrMyKDXr5B5kSU7yynrS-0" value="ChiFeature2GraphManager" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;fillColor=#ffcccc;strokeColor=#36393d;" parent="I7T-B5ORQnlcZlzDJ3P4-1" vertex="1">
-          <mxGeometry x="-1710" y="160" width="150" height="2260" as="geometry" />
+          <mxGeometry x="-1710" y="160" width="150" height="3050" as="geometry" />
         </mxCell>
         <mxCell id="UrMyKDXr5B5kSU7yynrS-1" value="Initialize" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;" parent="UrMyKDXr5B5kSU7yynrS-0" target="UrMyKDXr5B5kSU7yynrS-5" edge="1">
           <mxGeometry relative="1" as="geometry">
@@ -508,10 +514,10 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="UrMyKDXr5B5kSU7yynrS-4" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;fillColor=#ffcccc;strokeColor=#36393d;" parent="UrMyKDXr5B5kSU7yynrS-0" vertex="1">
-          <mxGeometry x="70" y="70" width="10" height="2020" as="geometry" />
+          <mxGeometry x="70" y="70" width="10" height="2950" as="geometry" />
         </mxCell>
         <mxCell id="UrMyKDXr5B5kSU7yynrS-5" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;fillColor=#f8cecc;strokeColor=#b85450;" parent="UrMyKDXr5B5kSU7yynrS-0" vertex="1">
-          <mxGeometry x="75" y="150" width="10" height="1700" as="geometry" />
+          <mxGeometry x="75" y="150" width="10" height="2790" as="geometry" />
         </mxCell>
         <mxCell id="jUlbbz9EtEi3TnEbhP8g-1" value="CreateFeatureInstances" style="html=1;verticalAlign=bottom;endArrow=block;" parent="UrMyKDXr5B5kSU7yynrS-0" target="xXuh8mXAeOKQKE_aS-PZ-0" edge="1">
           <mxGeometry width="80" relative="1" as="geometry">
@@ -523,10 +529,10 @@
           <mxGeometry x="-1270" y="340" width="130" height="70" as="geometry" />
         </mxCell>
         <mxCell id="pzTk7MWCr8cp_KgB63Av-0" value="ChiFeature2RealTime" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="I7T-B5ORQnlcZlzDJ3P4-1" vertex="1">
-          <mxGeometry x="-1120" y="160" width="130" height="1990" as="geometry" />
+          <mxGeometry x="-1120" y="160" width="130" height="3010" as="geometry" />
         </mxCell>
         <mxCell id="pzTk7MWCr8cp_KgB63Av-1" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="pzTk7MWCr8cp_KgB63Av-0" vertex="1">
-          <mxGeometry x="60" y="290" width="10" height="1490" as="geometry" />
+          <mxGeometry x="60" y="290" width="10" height="2670" as="geometry" />
         </mxCell>
         <mxCell id="pzTk7MWCr8cp_KgB63Av-3" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="pzTk7MWCr8cp_KgB63Av-0" vertex="1">
           <mxGeometry x="65" y="360" width="10" height="40" as="geometry" />
@@ -562,6 +568,12 @@
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="80" y="1450" as="sourcePoint" />
             <mxPoint x="600" y="1450" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XpGxXQjMwMVQyizPbOdk-24" value="return" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;" edge="1" parent="pzTk7MWCr8cp_KgB63Av-0" target="LB1sDGnQOYf5j8Qctcjs-41">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="80" y="2250" as="sourcePoint" />
+            <mxPoint x="160" y="2250" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="pzTk7MWCr8cp_KgB63Av-5" value="通过&lt;div&gt;                FindBestSensorMode&amp;nbsp;&lt;/div&gt;&lt;span&gt;              &lt;/span&gt;拿到期望的raw图的width,high,bpp，默认为bpp 为10,对应raw10" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;" parent="I7T-B5ORQnlcZlzDJ3P4-1" vertex="1">
@@ -644,10 +656,10 @@
           <mxGeometry x="-1250" y="1160" width="80" height="20" as="geometry" />
         </mxCell>
         <mxCell id="LB1sDGnQOYf5j8Qctcjs-41" value="ChiFeature2Base" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;fillColor=#fff2cc;strokeColor=#d6b656;" parent="I7T-B5ORQnlcZlzDJ3P4-1" vertex="1">
-          <mxGeometry x="-560" y="160" width="100" height="1920" as="geometry" />
+          <mxGeometry x="-560" y="160" width="100" height="3010" as="geometry" />
         </mxCell>
         <mxCell id="LB1sDGnQOYf5j8Qctcjs-42" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;fillColor=#fff2cc;strokeColor=#d6b656;" parent="LB1sDGnQOYf5j8Qctcjs-41" vertex="1">
-          <mxGeometry x="45" y="1180" width="10" height="420" as="geometry" />
+          <mxGeometry x="45" y="1180" width="10" height="1780" as="geometry" />
         </mxCell>
         <mxCell id="F_Mav0wZiiB18uvNvcqT-1" value="RegisterJobFamily" style="html=1;verticalAlign=bottom;endArrow=block;" parent="LB1sDGnQOYf5j8Qctcjs-41" edge="1">
           <mxGeometry width="80" relative="1" as="geometry">
@@ -664,6 +676,74 @@
             <mxPoint x="55" y="1310" as="sourcePoint" />
             <Array as="points">
               <mxPoint x="85" y="1310" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="D80DLoLsOkrlfO6urUhw-8" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="LB1sDGnQOYf5j8Qctcjs-41">
+          <mxGeometry x="50" y="1740" width="10" height="430" as="geometry" />
+        </mxCell>
+        <mxCell id="D80DLoLsOkrlfO6urUhw-9" value="PrepareFeatureData" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;strokeColor=#FF3333;" edge="1" target="D80DLoLsOkrlfO6urUhw-8" parent="LB1sDGnQOYf5j8Qctcjs-41">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="55" y="1720" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="85" y="1720" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XpGxXQjMwMVQyizPbOdk-2" value="CloneUsecase" style="html=1;verticalAlign=bottom;endArrow=block;" edge="1" parent="LB1sDGnQOYf5j8Qctcjs-41" target="XpGxXQjMwMVQyizPbOdk-0">
+          <mxGeometry x="0.1867" y="10" width="80" relative="1" as="geometry">
+            <mxPoint x="60" y="1830" as="sourcePoint" />
+            <mxPoint x="140" y="1830" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XpGxXQjMwMVQyizPbOdk-4" value="PruneUsecaseDescriptor" style="html=1;verticalAlign=bottom;endArrow=block;" edge="1" parent="LB1sDGnQOYf5j8Qctcjs-41">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="60" y="1860" as="sourcePoint" />
+            <mxPoint x="465" y="1860" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XpGxXQjMwMVQyizPbOdk-9" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="LB1sDGnQOYf5j8Qctcjs-41">
+          <mxGeometry x="55" y="1940" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="XpGxXQjMwMVQyizPbOdk-10" value="PopulateDisabledStatus" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;" edge="1" target="XpGxXQjMwMVQyizPbOdk-9" parent="LB1sDGnQOYf5j8Qctcjs-41">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="60" y="1920" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="90" y="1920" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XpGxXQjMwMVQyizPbOdk-13" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="LB1sDGnQOYf5j8Qctcjs-41">
+          <mxGeometry x="55" y="2020" width="10" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="XpGxXQjMwMVQyizPbOdk-14" value="PopulateStream" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;" edge="1" target="XpGxXQjMwMVQyizPbOdk-13" parent="LB1sDGnQOYf5j8Qctcjs-41">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="60" y="2000" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="90" y="2000" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XpGxXQjMwMVQyizPbOdk-18" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="LB1sDGnQOYf5j8Qctcjs-41">
+          <mxGeometry x="60" y="2080" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="XpGxXQjMwMVQyizPbOdk-19" value="AssignStreams" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;" edge="1" target="XpGxXQjMwMVQyizPbOdk-18" parent="LB1sDGnQOYf5j8Qctcjs-41">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="65" y="2060" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="95" y="2060" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XpGxXQjMwMVQyizPbOdk-22" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="LB1sDGnQOYf5j8Qctcjs-41">
+          <mxGeometry x="50" y="2220" width="10" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="XpGxXQjMwMVQyizPbOdk-23" value="OnInitialize" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;" edge="1" target="XpGxXQjMwMVQyizPbOdk-22" parent="LB1sDGnQOYf5j8Qctcjs-41">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="55" y="2200" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="85" y="2200" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -711,6 +791,75 @@
             <mxPoint x="-1620" y="1730" as="sourcePoint" />
             <mxPoint x="-1310" y="1730" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="D80DLoLsOkrlfO6urUhw-4" value="普通拍照不需要doNegotiations" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="I7T-B5ORQnlcZlzDJ3P4-1">
+          <mxGeometry x="-1240" y="1754" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="D80DLoLsOkrlfO6urUhw-10" value="为什么按照JPEG&lt;br&gt;HDR&lt;br&gt;B2Y&lt;br&gt;B2Y&lt;br&gt;RT这种顺序进行configure,虽然rEnabledFeatures是按照less排序的，且遍历是反向遍历，但也不是这种顺序，图里为rt feature instance" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="I7T-B5ORQnlcZlzDJ3P4-1">
+          <mxGeometry x="-1410" y="1820" width="100" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="tW_nLO2qiURuOOOa9uDv-0" value="OnPipelineSelect" style="html=1;verticalAlign=bottom;endArrow=block;" edge="1" parent="I7T-B5ORQnlcZlzDJ3P4-1" source="LB1sDGnQOYf5j8Qctcjs-41">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="-970" y="1910" as="sourcePoint" />
+            <mxPoint x="-1050" y="1910" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tW_nLO2qiURuOOOa9uDv-1" value="return" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;" edge="1" parent="I7T-B5ORQnlcZlzDJ3P4-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-1050" y="1930" as="sourcePoint" />
+            <mxPoint x="-505" y="1930" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tW_nLO2qiURuOOOa9uDv-2" value="根据feature name和模式，场景，尺寸来选择对应的pipeline name" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FF3333;" vertex="1" parent="I7T-B5ORQnlcZlzDJ3P4-1">
+          <mxGeometry x="-470" y="1920" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="XpGxXQjMwMVQyizPbOdk-0" value="&lt;b&gt;UsecaseSelector&lt;/b&gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;fillColor=#FF3333;" vertex="1" parent="I7T-B5ORQnlcZlzDJ3P4-1">
+          <mxGeometry x="-160" y="160" width="130" height="1990" as="geometry" />
+        </mxCell>
+        <mxCell id="XpGxXQjMwMVQyizPbOdk-1" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;fillColor=#FF3333;" vertex="1" parent="XpGxXQjMwMVQyizPbOdk-0">
+          <mxGeometry x="60" y="1670" width="10" height="290" as="geometry" />
+        </mxCell>
+        <mxCell id="XpGxXQjMwMVQyizPbOdk-3" value="return" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;" edge="1" parent="I7T-B5ORQnlcZlzDJ3P4-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-110" y="2000" as="sourcePoint" />
+            <mxPoint x="-490" y="2000" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XpGxXQjMwMVQyizPbOdk-5" value="return" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;" edge="1" parent="I7T-B5ORQnlcZlzDJ3P4-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-100" y="2030" as="sourcePoint" />
+            <mxPoint x="-490" y="2030" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XpGxXQjMwMVQyizPbOdk-7" value="&lt;span&gt;获取pipeline拓扑，并进行prune&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FF3333;" vertex="1" parent="I7T-B5ORQnlcZlzDJ3P4-1">
+          <mxGeometry x="-260" y="2040" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="XpGxXQjMwMVQyizPbOdk-15" value="设置输入输出port使能状态" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="I7T-B5ORQnlcZlzDJ3P4-1">
+          <mxGeometry x="-440" y="2100" width="150" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="XpGxXQjMwMVQyizPbOdk-20" value="映射targetstream到result stream,作为和chifbuffer交互的key，关联GetStreamBuffer函数" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="I7T-B5ORQnlcZlzDJ3P4-1">
+          <mxGeometry x="-370" y="2220" width="150" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="XpGxXQjMwMVQyizPbOdk-21" value="OnInitialize" style="html=1;verticalAlign=bottom;endArrow=block;" edge="1" parent="I7T-B5ORQnlcZlzDJ3P4-1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="-520" y="2400" as="sourcePoint" />
+            <mxPoint x="-1040" y="2400" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XpGxXQjMwMVQyizPbOdk-25" value="注册SubmitRequestHandler线程" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="I7T-B5ORQnlcZlzDJ3P4-1">
+          <mxGeometry x="-700" y="2380" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="XpGxXQjMwMVQyizPbOdk-27" value="return" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;strokeColor=#FF3333;" edge="1" parent="I7T-B5ORQnlcZlzDJ3P4-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-530" y="2480" as="sourcePoint" />
+            <mxPoint x="-1280" y="2480" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XpGxXQjMwMVQyizPbOdk-28" value="ChiFeature2Status::Configured" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#3333FF;" vertex="1" parent="I7T-B5ORQnlcZlzDJ3P4-1">
+          <mxGeometry x="-535" y="2440" width="190" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="XpGxXQjMwMVQyizPbOdk-29" value="loop:feature Instance" style="shape=umlFrame;whiteSpace=wrap;html=1;fillColor=#B5739D;width=70;height=30;" vertex="1" parent="I7T-B5ORQnlcZlzDJ3P4-1">
+          <mxGeometry x="-1440" y="1790" width="1390" height="720" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
